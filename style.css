@@ -1,0 +1,66 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+body{
+    
+    height: 100%;
+  background: url(ab.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: table;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+.logo{
+    float: left;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 90px;
+    padding: 0% 3em;
+    font-family: initial;
+}
+.menu  {
+    float: right;
+    line-height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+
+}
+.menu ul li a button{
+    color: #fff;
+    background-color: rgb(44, 41, 53);
+    padding: 8px  40px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.menu ul li a button:hover{
+    background-color: snow;
+    color: black;
+}
+.header{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align:left;
+    margin: 70px;
+    padding: 90px;
+    transform: translate(-50%,-50%);
+    
+} 
+
